@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(3, 3, 24);
+  color: aliceblue;
+}
+
+#image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+
+#image-filtered {
+  max-width: 100%;
+}
+
+.filter-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  border: 1px solid #ccc;
+  width: fit-content;
+  margin-bottom: 16px;
+}
+
+.filter-control {
+  margin-bottom: 10px;
+}
+
+.filter-control >input{
+  margin-right: 10px;
+/* style it differenlty */
+
+}
+img {
+  width: 25%;
+}
+
+
+
